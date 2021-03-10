@@ -65,6 +65,7 @@ img {
 .home-content p {
   font-size: 1.125rem;
   margin: 10px 0 42px;
+  text-shadow:  3px 3px 6px #777, -3px 3px 6px #777, 3px -3px 6px #777, -3px -3px 6px #777;
 }
 
 /* 見出し */
@@ -73,6 +74,7 @@ img {
   font-family: 'Philosopher', serif;
   text-transform: uppercase;
   font-weight: normal;
+  text-shadow:  3px 3px 6px #777, -3px 3px 6px #777, 3px -3px 6px #777, -3px -3px 6px #777;
 }
 
 /* ボタン */
@@ -239,11 +241,13 @@ aside p {
 
 .menu-content .page-title {
   text-align: center;
+  text-shadow:  3px 3px 6px #777, -3px 3px 6px #777, 3px -3px 6px #777, -3px -3px 6px #777;
 }
 
 .menu-content p {
   font-size: 1.125rem;
   margin: 10px 0 0;
+  text-shadow:  3px 3px 6px #777, -3px 3px 6px #777, 3px -3px 6px #777, -3px -3px 6px #777;
 }
 
 .grid {
@@ -252,6 +256,7 @@ aside p {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   margin-top: 6%;
   margin-bottom: 50px;
+  color: #000;
 }
 
 .big-box {
@@ -260,7 +265,7 @@ aside p {
 }
 
 .big-box img {
-  height: 94%;
+  height: 91%;
   width: 100%;
   /* サイズに合わせてトリミングを自動でしてくれる */
   object-fit: cover;
