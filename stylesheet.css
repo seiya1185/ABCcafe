@@ -203,6 +203,7 @@ article p {
   padding: 0 8px 8px;
   border-bottom: 2px #0bd solid;
   font-weight: normal;
+  color: #000;
 }
 
 aside p {
@@ -327,6 +328,7 @@ input[type="submit"] {
 }
 
 .location-info {
+  color: #000;
   width: 22%;
 }
 
